@@ -22,7 +22,7 @@ conda install -c conda-forge cookiecutter
 In a folder where you want your project generated:
 
 ```bash
-cookiecutter https://github.com/jdsyntax/cookiecutter-conda-data-science
+cookiecutter https://github.com/JDsyntax/cookiecutter-conda-data-science
 ```
 
 ## Hooks
