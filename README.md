@@ -22,8 +22,11 @@ conda install -c conda-forge cookiecutter
 In a folder where you want your project generated:
 
 ```bash
-cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
+cookiecutter https://github.com/jdsyntax/cookiecutter-conda-data-science
 ```
+
+## Hooks
+Edit files in the hooks directory, to control the actions after and before create the cookiecutter.
 
 ## Resulting directory structure
 
@@ -81,6 +84,8 @@ cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
 All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
 
 ## Credits
+
+This is a directly fork from https://github.com/jvelezmagic/cookiecutter-conda-data-science
 
 This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
 
